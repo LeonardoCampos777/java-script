@@ -1,0 +1,46 @@
+h1{
+    text-align: center;
+    font-size: 2.5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+
+img{
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+.botoes{
+    text-align: center;
+    
+}
+
+.btn{  
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    font-size: 1.2rem;
+    padding: 10px 26px;
+}
+
+.btn-vermelho:hover{
+    background-color: red;
+    cursor: pointer;
+}
+
+.btn-amarelo:hover{
+    background-color: yellow;
+    cursor: pointer;
+}
+
+.btn-verde:hover{
+    background-color: green;
+    cursor: pointer;
+}
+
+.btn-automatico:hover{
+    background-color: lightseagreen;
+    cursor: pointer;
+}

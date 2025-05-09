@@ -1,0 +1,61 @@
+.calculadora-imc{
+    max-width: 350px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgb(216, 6, 6);
+    border-radius: 26px;
+}
+
+.calculadora-imc h1{
+    text-align: center;
+    border-bottom: 5px solid black;
+}
+
+form div{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form label{
+    font-weight: 600;
+    margin-bottom: 5px;
+    display: block;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+form input{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 900;
+    height: 40px;
+    width: 70%;
+    border-radius: 6px;
+    border: none;
+    text-align: center;
+}
+
+.btn-calcular{
+    display: block;
+    margin: 0 auto;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 900;
+    font-size: 1rem;
+    padding: 12px 38px;
+    border-radius: 4px;
+    border: none;
+}
+
+.btn-calcular:hover{
+    background-color: rgb(31, 23, 23);
+    color: white;
+    cursor: pointer;
+}
+
+.div-resultado{
+    height: 170px;
+    margin-top: 40px;
+    border-radius: 16px;
+    background-color: rgb(52, 52, 59);
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}

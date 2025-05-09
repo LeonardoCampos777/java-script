@@ -1,0 +1,89 @@
+.div{
+  color: lightgreen;
+  font-size: 1.5rem;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+
+h1{
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  position: relative;
+}
+
+h1::before{
+  content: "";
+  display: block;
+  background-image: url(./mask3.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+  position: absolute;
+  top: 0px;
+  left: 250px;
+  width: 150px;
+  height: 150px;
+  box-shadow: -2px -3px 20px 12px greenyellow;
+  border-radius: 30%;
+}
+
+h1::after{
+  content: "";
+  display: block;
+  background-image: url(./mask2.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+  position: absolute;
+  top: 0px;
+  right: 250px;
+  width: 150px;
+  height: 150px;
+  box-shadow: -2px -3px 20px 12px greenyellow;
+  border-radius: 30%;
+}
+
+img{
+  margin: 0 auto;
+  display: block;
+  box-shadow: -2px -3px 20px 12px greenyellow;
+  margin-top: 20px;
+}
+
+body{
+  position: relative;
+  background-color: aliceblue;
+}
+
+body::before{
+  content: "É DE MAIS...";
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 200px;
+  font-size: 3rem;
+  color: rgb(232, 255, 24);
+  background-color: black;
+  padding: 12px;
+  border-radius: 300px;
+}
+
+body::after{
+  content: "É DE MAIS...";
+  display: block;
+  position: absolute;
+  top: 50%;
+  right: 200px;
+  font-size: 3rem;
+  color: rgb(232, 255, 24);
+  background-color: black;
+  padding: 12px;
+  border-radius: 300px;
+}
+
+
+iframe{
+  position:;
+}
