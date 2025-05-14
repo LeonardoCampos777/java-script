@@ -34,7 +34,7 @@ class Countdown {
   get total(){
     const days = this.days;
     const hours = this.hours % 24;
-    const minutes = this.hours % 60;
+    const minutes = this.minutes % 60;
     const seconds = this.seconds % 60;
 
     return{
