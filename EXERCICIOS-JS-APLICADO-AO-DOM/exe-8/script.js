@@ -27,7 +27,7 @@ function newTask() {
 function validateIfExistsNewTask() {
   let values = JSON.parse(localStorage.getItem(localStorageKey) || "[]");
   let inputValue = document.querySelector("#input-new-task").value;
-  let exists = values.find((x) => x.name == inputValue);
+  let exists = values.find((x) => x.name == inputValue); // é uma função de seta (arrow function). Para cada item x no array, ele verifica se x.name == inputValue.
   return !exists ? false : true;
 }
 

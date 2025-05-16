@@ -110,3 +110,18 @@ body {
   background-color: var(--color-green2);
   color: #000;
 }
+
+@media (max-width:480px){
+  h1{
+    text-align: center;
+    padding: 20px;
+  }
+
+  .content{
+    padding: 20px;
+  }
+
+  #input-new-task{
+    width: 280px;
+  }
+}
